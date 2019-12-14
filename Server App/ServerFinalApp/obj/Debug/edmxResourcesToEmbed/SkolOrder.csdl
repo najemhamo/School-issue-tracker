@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SkolOrderModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Avdelningar">
+    <Key>
+      <PropertyRef Name="Plats" />
+    </Key>
+    <Property Name="Plats" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Order" Relationship="Self.FK_Order_ToTable_1" FromRole="Avdelningar" ToRole="Order" />
+  </EntityType>
+  <EntityType Name="Elever">
+    <Key>
+      <PropertyRef Name="ElevNamn" />
+    </Key>
+    <Property Name="ElevNamn" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Losenord" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Order" Relationship="Self.FK_Order_ToTable" FromRole="Elever" ToRole="Order" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="OrderNr" />
+    </Key>
+    <Property Name="OrderNr" Type="Int32" Nullable="false" />
+    <Property Name="Ansvarig" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Avdelning" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Prioritet" Type="Int32" />
+    <Property Name="Börjat" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Klar" Type="DateTime" Precision="0" />
+    <Property Name="BildFormat" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Avdelningar" Relationship="Self.FK_Order_ToTable_1" FromRole="Order" ToRole="Avdelningar" />
+    <NavigationProperty Name="Elever" Relationship="Self.FK_Order_ToTable" FromRole="Order" ToRole="Elever" />
+  </EntityType>
+  <Association Name="FK_Order_ToTable_1">
+    <End Role="Avdelningar" Type="Self.Avdelningar" Multiplicity="0..1" />
+    <End Role="Order" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Avdelningar">
+        <PropertyRef Name="Plats" />
+      </Principal>
+      <Dependent Role="Order">
+        <PropertyRef Name="Avdelning" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Order_ToTable">
+    <End Role="Elever" Type="Self.Elever" Multiplicity="0..1" />
+    <End Role="Order" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Elever">
+        <PropertyRef Name="ElevNamn" />
+      </Principal>
+      <Dependent Role="Order">
+        <PropertyRef Name="Ansvarig" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SkolOrderEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Avdelningar" EntityType="Self.Avdelningar" />
+    <EntitySet Name="Elever" EntityType="Self.Elever" />
+    <EntitySet Name="Order" EntityType="Self.Order" />
+    <AssociationSet Name="FK_Order_ToTable_1" Association="Self.FK_Order_ToTable_1">
+      <End Role="Avdelningar" EntitySet="Avdelningar" />
+      <End Role="Order" EntitySet="Order" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Order_ToTable" Association="Self.FK_Order_ToTable">
+      <End Role="Elever" EntitySet="Elever" />
+      <End Role="Order" EntitySet="Order" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

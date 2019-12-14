@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SkolOrderModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Avdelningar">
+    <Key>
+      <PropertyRef Name="Plats" />
+    </Key>
+    <Property Name="Plats" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Elever">
+    <Key>
+      <PropertyRef Name="ElevNamn" />
+    </Key>
+    <Property Name="ElevNamn" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Losenord" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="OrderNr" />
+    </Key>
+    <Property Name="OrderNr" Type="int" Nullable="false" />
+    <Property Name="Ansvarig" Type="varchar" MaxLength="50" />
+    <Property Name="Avdelning" Type="varchar" MaxLength="50" />
+    <Property Name="Prioritet" Type="int" />
+    <Property Name="Börjat" Type="varchar" MaxLength="50" />
+    <Property Name="Klar" Type="date" />
+    <Property Name="BildFormat" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Order_ToTable">
+    <End Role="Elever" Type="Self.Elever" Multiplicity="0..1" />
+    <End Role="Order" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Elever">
+        <PropertyRef Name="ElevNamn" />
+      </Principal>
+      <Dependent Role="Order">
+        <PropertyRef Name="Ansvarig" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Order_ToTable_1">
+    <End Role="Avdelningar" Type="Self.Avdelningar" Multiplicity="0..1" />
+    <End Role="Order" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Avdelningar">
+        <PropertyRef Name="Plats" />
+      </Principal>
+      <Dependent Role="Order">
+        <PropertyRef Name="Avdelning" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SkolOrderModelStoreContainer">
+    <EntitySet Name="Avdelningar" EntityType="Self.Avdelningar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Elever" EntityType="Self.Elever" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Order" EntityType="Self.Order" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Order_ToTable" Association="Self.FK_Order_ToTable">
+      <End Role="Elever" EntitySet="Elever" />
+      <End Role="Order" EntitySet="Order" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Order_ToTable_1" Association="Self.FK_Order_ToTable_1">
+      <End Role="Avdelningar" EntitySet="Avdelningar" />
+      <End Role="Order" EntitySet="Order" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

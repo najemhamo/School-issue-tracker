@@ -1,0 +1,82 @@
+E:\Work\program Server\Elever\Elever\bin\Debug\Elever.exe.config
+E:\Work\program Server\Elever\Elever\bin\Debug\Elever.exe
+E:\Work\program Server\Elever\Elever\bin\Debug\Elever.pdb
+E:\Work\program Server\Elever\Elever\obj\Debug\Elever.csprojAssemblyReference.cache
+E:\Work\program Server\Elever\Elever\obj\Debug\Elever.Form1.resources
+E:\Work\program Server\Elever\Elever\obj\Debug\Elever.Properties.Resources.resources
+E:\Work\program Server\Elever\Elever\obj\Debug\Elever.csproj.GenerateResource.cache
+E:\Work\program Server\Elever\Elever\obj\Debug\Elever.csproj.CoreCompileInputs.cache
+E:\Work\program Server\Elever\Elever\obj\Debug\Elever.exe
+E:\Work\program Server\Elever\Elever\obj\Debug\Elever.pdb
+E:\Work\program Server\Elever\Elever\obj\Debug\Elever.ElevApp.resources
+E:\Work\program Server\Elever\Elever\obj\Debug\Elever.lösenord.resources
+D:\Work\program Server\Elever\Elever\bin\Debug\Elever.exe.config
+D:\Work\program Server\Elever\Elever\bin\Debug\Elever.exe
+D:\Work\program Server\Elever\Elever\bin\Debug\Elever.pdb
+D:\Work\program Server\Elever\Elever\obj\Debug\Elever.csprojAssemblyReference.cache
+D:\Work\program Server\Elever\Elever\obj\Debug\Elever.ElevApp.resources
+D:\Work\program Server\Elever\Elever\obj\Debug\Elever.Form1.resources
+D:\Work\program Server\Elever\Elever\obj\Debug\Elever.lösenord.resources
+D:\Work\program Server\Elever\Elever\obj\Debug\Elever.Properties.Resources.resources
+D:\Work\program Server\Elever\Elever\obj\Debug\Elever.csproj.GenerateResource.cache
+D:\Work\program Server\Elever\Elever\obj\Debug\Elever.csproj.CoreCompileInputs.cache
+D:\Work\program Server\Elever\Elever\obj\Debug\Elever.exe
+D:\Work\program Server\Elever\Elever\obj\Debug\Elever.pdb
+G:\Work\program Server\Elever\Elever\bin\Debug\Elever.exe.config
+G:\Work\program Server\Elever\Elever\bin\Debug\Elever.exe
+G:\Work\program Server\Elever\Elever\obj\Debug\Elever.csprojAssemblyReference.cache
+G:\Work\program Server\Elever\Elever\obj\Debug\Elever.ElevApp.resources
+G:\Work\program Server\Elever\Elever\obj\Debug\Elever.Form1.resources
+G:\Work\program Server\Elever\Elever\obj\Debug\Elever.lösenord.resources
+G:\Work\program Server\Elever\Elever\obj\Debug\Elever.Properties.Resources.resources
+G:\Work\program Server\Elever\Elever\obj\Debug\Elever.csproj.GenerateResource.cache
+G:\Work\program Server\Elever\Elever\obj\Debug\Elever.csproj.CoreCompileInputs.cache
+G:\Work\program Server\Elever\Elever\obj\Debug\Elever.exe
+G:\Work\program Server\Elever\Elever\obj\Debug\Elever.pdb
+G:\Work\program Server\Elever\Elever\bin\Debug\Elever.pdb
+G:\Work\program Server\Elever\Elever\obj\Debug\Elever.Anslutning.resources
+E:\Work\program Server\Elever\Elever\obj\Debug\Elever.Anslutning.resources
+C:\Users\enajham\Desktop\Elever\Elever\bin\Debug\Elever.exe.config
+C:\Users\enajham\Desktop\Elever\Elever\bin\Debug\Elever.exe
+C:\Users\enajham\Desktop\Elever\Elever\bin\Debug\Elever.pdb
+C:\Users\enajham\Desktop\Elever\Elever\obj\Debug\Elever.csprojAssemblyReference.cache
+C:\Users\enajham\Desktop\Elever\Elever\obj\Debug\Elever.Anslutning.resources
+C:\Users\enajham\Desktop\Elever\Elever\obj\Debug\Elever.ElevApp.resources
+C:\Users\enajham\Desktop\Elever\Elever\obj\Debug\Elever.Form1.resources
+C:\Users\enajham\Desktop\Elever\Elever\obj\Debug\Elever.lösenord.resources
+C:\Users\enajham\Desktop\Elever\Elever\obj\Debug\Elever.Om.resources
+C:\Users\enajham\Desktop\Elever\Elever\obj\Debug\Elever.Properties.Resources.resources
+C:\Users\enajham\Desktop\Elever\Elever\obj\Debug\Elever.csproj.GenerateResource.cache
+C:\Users\enajham\Desktop\Elever\Elever\obj\Debug\Elever.csproj.CoreCompileInputs.cache
+C:\Users\enajham\Desktop\Elever\Elever\obj\Debug\Elever.exe
+C:\Users\enajham\Desktop\Elever\Elever\obj\Debug\Elever.pdb
+G:\Najem o Bilal\Elever\Elever\bin\Debug\Elever.exe.config
+G:\Najem o Bilal\Elever\Elever\bin\Debug\Elever.exe
+G:\Najem o Bilal\Elever\Elever\bin\Debug\Elever.pdb
+G:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.csprojAssemblyReference.cache
+G:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.Anslutning.resources
+G:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.ElevApp.resources
+G:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.Form1.resources
+G:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.lösenord.resources
+G:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.Om.resources
+G:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.Properties.Resources.resources
+G:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.csproj.GenerateResource.cache
+G:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.csproj.CoreCompileInputs.cache
+G:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.exe
+G:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.pdb
+D:\Najem o Bilal\Elever\Elever\bin\Debug\Elever.exe.config
+D:\Najem o Bilal\Elever\Elever\bin\Debug\Elever.exe
+D:\Najem o Bilal\Elever\Elever\bin\Debug\Elever.pdb
+D:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.csprojAssemblyReference.cache
+D:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.Anslutning.resources
+D:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.ElevApp.resources
+D:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.Form1.resources
+D:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.lösenord.resources
+D:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.Om.resources
+D:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.Properties.Resources.resources
+D:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.csproj.GenerateResource.cache
+D:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.csproj.CoreCompileInputs.cache
+D:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.exe
+D:\Najem o Bilal\Elever\Elever\obj\Debug\Elever.pdb
+G:\App for school's teachers\Elever\Elever\obj\Debug\Elever.exe
+G:\App for school's teachers\Elever\Elever\obj\Debug\Elever.pdb
